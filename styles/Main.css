@@ -1,0 +1,200 @@
+/*SOCIAL MEDIA COLORS
+https://www.lockedowndesign.com/social-media-colors/
+*/
+/* line 17, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Comfortaa", "Helvetica", sans-serif;
+  color: #333333;
+  letter-spacing: 0.15vw; }
+
+/* line 25, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+body {
+  position: relative; }
+
+/* line 29, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important; }
+
+/* line 35, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px; }
+
+/* line 40, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.navbar-default {
+  box-shadow: 0px 1px 14px RGBA(0, 0, 0, 0.9);
+  background-color: white; }
+
+/* line 46, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.red {
+  color: red; }
+
+/* line 50, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.nav a {
+  color: blue; }
+
+/* line 54, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.red {
+  color: red; }
+
+/* line 58, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+h1,
+h2,
+h3,
+h4,
+.navbar-brand {
+  font-variant: small-caps; }
+
+/* line 70, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.row {
+  padding: 5em 0;
+  border-bottom: 1px solid black; }
+
+/* line 75, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#title-row {
+  background-color: #DDEDF6; }
+
+/* line 81, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#title-name {
+  font-size: 7vw;
+  font-weight: bold; }
+
+/* line 86, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#title-role {
+  font-size: 5vw; }
+
+/* line 90, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#title-group {
+  text-align: center; }
+
+/* line 94, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#headshot img {
+  width: 13%;
+  margin: 0 auto;
+  margin-top: 8vh;
+  -moz-box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 1px 2px 13px rgba(0, 0, 0, 0.9);
+  box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.9);
+  animation: fadeIn 1s; }
+
+/* line 104, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#about-row {
+  background-color: #BED2D4; }
+
+/* line 109, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.about-text {
+  text-align: justify; }
+
+/* line 113, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#portfolio-row {
+  background-color: #E4EBE9; }
+
+/* line 121, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#contact-row {
+  background-color: #BED4CA; }
+  /* line 124, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  #contact-row h5 {
+    font-family: 'Lato'; }
+  /* line 127, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  #contact-row a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.4s; }
+    /* line 131, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+    #contact-row a:hover {
+      color: #a35353; }
+
+/* line 142, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+p {
+  font-family: "Lato", sans-serif;
+  line-height: 8vh;
+  font-size: 3vh;
+  letter-spacing: 0.2vw; }
+  /* line 148, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  p::first-letter {
+    font-size: 10vh; }
+
+/* line 153, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.portfolio-image-container {
+  text-align: center;
+  margin: 2em;
+  border-radius: 50px;
+  margin-top: -2px; }
+  /* line 157, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  .portfolio-image-container img:hover {
+    opacity: 0.6; }
+
+/* line 163, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.invisible {
+  display: none; }
+
+/* line 167, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+form * {
+  font-family: 'Lato', 'Helvetica', sans-serif;
+  font-style: bold;
+  letter-spacing: normal; }
+
+/* line 178, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+footer {
+  background-color: #DDF6E3;
+  padding-bottom: 1.5em; }
+  /* line 181, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  footer h2 {
+    color: #333333; }
+  /* line 184, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  footer .row {
+    border-bottom: none; }
+
+/* line 189, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+.well {
+  border-radius: 25px 25px 25px 25px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin-top: 2em; }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* line 212, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#social-links a {
+  display: inline; }
+
+/* line 215, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#social-links span {
+  color: #333333;
+  transition: color 0.8s, transform 0.8s; }
+  /* line 218, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  #social-links span:hover {
+    transform: rotate(360deg); }
+
+/* line 224, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+p.copy {
+  font-size: 14px; }
+
+/* line 228, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#facebook span:hover {
+  color: #3b5998; }
+
+/* line 232, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#twitter span:hover {
+  color: #00b6f1; }
+
+/* line 236, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#youtube span:hover {
+  color: #b31217; }
+
+/* line 240, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#linkedin span:hover {
+  color: #007bb6; }
+
+/* line 244, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+#github span:hover {
+  color: #000000; }
+
+/*# sourceMappingURL=Main.css.map */
