@@ -123,33 +123,34 @@ p {
   text-align: center;
   margin: 2em;
   border-radius: 50px;
-  margin-top: -2px; }
+  margin-top: -2px;
+  outline: 2px solid black; }
   /* line 157, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
   .portfolio-image-container img:hover {
     opacity: 0.6; }
 
-/* line 163, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 164, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 .invisible {
   display: none; }
 
-/* line 167, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 168, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 form * {
   font-family: 'Lato', 'Helvetica', sans-serif;
   font-style: bold;
   letter-spacing: normal; }
 
-/* line 178, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 179, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 footer {
   background-color: #DDF6E3;
   padding-bottom: 1.5em; }
-  /* line 181, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  /* line 182, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
   footer h2 {
     color: #333333; }
-  /* line 184, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  /* line 185, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
   footer .row {
     border-bottom: none; }
 
-/* line 189, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 190, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 .well {
   border-radius: 25px 25px 25px 25px;
   border: 1px solid rgba(0, 0, 0, 0.6);
@@ -161,39 +162,39 @@ footer {
   100% {
     opacity: 1; } }
 
-/* line 212, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 213, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 #social-links a {
   display: inline; }
 
-/* line 215, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 216, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 #social-links span {
   color: #333333;
   transition: color 0.8s, transform 0.8s; }
-  /* line 218, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+  /* line 219, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
   #social-links span:hover {
     transform: rotate(360deg); }
 
-/* line 224, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 225, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 p.copy {
   font-size: 14px; }
 
-/* line 228, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 229, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 #facebook span:hover {
   color: #3b5998; }
 
-/* line 232, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 233, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 #twitter span:hover {
   color: #00b6f1; }
 
-/* line 236, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 237, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 #youtube span:hover {
   color: #b31217; }
 
-/* line 240, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 241, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 #linkedin span:hover {
   color: #007bb6; }
 
-/* line 244, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
+/* line 245, /Users/paulgoldman/Desktop/PROGRAMMING/HTML/PaulGoldman_Portfolio/styles/Main.scss */
 #github span:hover {
   color: #000000; }
 
