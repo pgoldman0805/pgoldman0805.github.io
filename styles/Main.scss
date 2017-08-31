@@ -68,7 +68,7 @@ h2 {
 }
 
 .row {
-    padding: 5em 0;
+    padding: 1em 0;
     border-bottom: 1px solid black;
 }
 
@@ -121,6 +121,7 @@ h2 {
 #contact-row {
     // visibility: hidden;
     background-color: $contactColor;
+    margin-bottom: -em;
     h5 {
         font-family: 'Lato'
     }
