@@ -127,31 +127,36 @@ p {
   margin-top: -2px;
   outline: 2px solid black; }
   /* line 158, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
-  .portfolio-image-container img:hover {
-    opacity: 0.6; }
+  .portfolio-image-container img {
+    margin: 0 auto;
+    width: 100%;
+    max-height: 295px; }
+    /* line 164, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+    .portfolio-image-container img:hover {
+      opacity: 0.6; }
 
-/* line 165, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 173, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 .invisible {
   display: none; }
 
-/* line 169, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 177, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 form * {
   font-family: 'Lato', 'Helvetica', sans-serif;
   font-style: bold;
   letter-spacing: normal; }
 
-/* line 180, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 188, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 footer {
   background-color: #DDF6E3;
   padding-bottom: 1.5em; }
-  /* line 183, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+  /* line 191, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
   footer h2 {
     color: #333333; }
-  /* line 186, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+  /* line 194, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
   footer .row {
     border-bottom: none; }
 
-/* line 191, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 199, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 .well {
   border-radius: 25px 25px 25px 25px;
   border: 1px solid rgba(0, 0, 0, 0.6);
@@ -163,39 +168,39 @@ footer {
   100% {
     opacity: 1; } }
 
-/* line 214, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 222, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 #social-links a {
   display: inline; }
 
-/* line 217, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 225, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 #social-links span {
   color: #333333;
   transition: color 0.8s, transform 0.8s; }
-  /* line 220, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+  /* line 228, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
   #social-links span:hover {
     transform: rotate(360deg); }
 
-/* line 226, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 234, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 p.copy {
   font-size: 14px; }
 
-/* line 230, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 238, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 #facebook span:hover {
   color: #3b5998; }
 
-/* line 234, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 242, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 #twitter span:hover {
   color: #00b6f1; }
 
-/* line 238, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 246, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 #youtube span:hover {
   color: #b31217; }
 
-/* line 242, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 250, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 #linkedin span:hover {
   color: #007bb6; }
 
-/* line 246, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
+/* line 254, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 #github span:hover {
   color: #000000; }
 
