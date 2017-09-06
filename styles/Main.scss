@@ -8,7 +8,7 @@ $youtubeColor: #b31217;
 $linkedinColor: #007bb6;
 $githubColor: #000000;
 // $backgroundColor: RGB(209,230,212);
-$textColor: #333333;
+$textColor: #222;
 $titleColor: #DDEDF6;
 $aboutColor: #BED2D4;
 $portfolioColor: #E4EBE9;
@@ -19,7 +19,7 @@ $footerColor: #DDF6E3;
     padding: 0;
     font-family: "Comfortaa", "Helvetica", sans-serif;
     color: $textColor;
-    letter-spacing: 0.15vw;
+    letter-spacing: 0.1em;
 }
 
 body {
@@ -38,9 +38,13 @@ body {
 }
 
 .navbar-default {
-    box-shadow: 0px 1px 14px RGBA(0, 0, 0, 0.9);
-    background-color: white;
-    // box-shadow: inset 3px 3px 13px RGBA(0,0,0,0.2);
+    li a {
+        color: black;
+        
+    }
+//    box-shadow: 0px 1px 14px RGBA(0, 0, 0, 0.9);
+    background-color: RGBA(253,255,255,1);
+     box-shadow:  3px 3px 13px RGBA(0,0,0,0.2),  -3px -3px 23px gray;
 }
 
 .red {
@@ -59,13 +63,16 @@ h1,
 h2,
 h3,
 h4,
-.navbar-brand {
+.navbar-brand,
+.navbar li{
     font-variant: small-caps;
+    color: black;
 }
 
-h2 {
-//    font-size: 5vw;
+.navbar-nav>li>a{
+    color: black ;
 }
+
 
 .row {
     padding: 1em 0;
@@ -79,12 +86,12 @@ h2 {
 }
 
 #title-name {
-    font-size: 7vw;
+    font-size: 7rem;
     font-weight: bold;
 }
 
 #title-role {
-    font-size: 5vw;
+    font-size: 5rem;
 }
 
 #title-group {
@@ -94,7 +101,7 @@ h2 {
 #headshot img {
     width: 13%;
     margin: 0 auto;
-    margin-top: 8vh;
+    margin-top: 8rem;
     -moz-box-shadow: 1px 2px 13px rgba(0, 0, 0, .9);
     -webkit-box-shadow: 1px 2px 13px rgba(0, 0, 0, .9);
     box-shadow: 2px 2px 13px rgba(0, 0, 0, .9);
@@ -107,7 +114,9 @@ h2 {
 
 }
 .about-text {
-    text-align: justify;
+    line-height: 2em;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 #portfolio-row {
@@ -116,6 +125,16 @@ h2 {
     // background-image: url("../assets/images/bg/bg-binary.png");
     // background-size: cover;
     // background-repeat: no-repeat;
+    > div {
+        opacity: 0.8;
+        padding: 5px;
+//        background-color: #efefef;
+        box-sizing: border-box;
+        &:hover {
+            opacity: 1;
+//            background-color: #fefefe;
+        }
+    }
 }
 
 #contact-row {
@@ -143,11 +162,11 @@ h2 {
 p {
     // text-align: justify;
     font-family: "Lato", sans-serif;
-    line-height: 8vh;
-    font-size: 3vh;
-    letter-spacing: 0.2vw;
+    line-height: 1.5em;
+    font-size: 3em;
+    letter-spacing: 0.2em;
     &::first-letter {
-        font-size: 10vh;
+        font-size: 4em;
     }
 }
 
@@ -162,7 +181,7 @@ p {
         max-height: 295px;
         
         &:hover{
-            opacity: 0.6;
+//            opacity: 0.6;
         }
     }
     margin-top: -2px;
@@ -170,6 +189,15 @@ p {
 //    max-height: 295px;
 }
 
+.portfolio-description {
+    text-align: center;
+    p {
+        font-size: 1.5rem;
+        letter-spacing: inherit;
+        line-height: inherit;
+        margin-top:-20px;
+    }
+}
 .invisible {
     display: none;
 }
