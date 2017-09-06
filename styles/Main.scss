@@ -23,7 +23,18 @@ $footerColor: #DDF6E3;
 }
 
 body {
+    padding-top: 40px;
     position: relative;
+}
+span.anchor {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -40px;
+    left: 0;
+    visibility: hidden;
 }
 
 .affix {
@@ -108,7 +119,7 @@ h4,
     animation: fadeIn 1s;
 }
 
-#about-row {
+#about-row + div {
     // visibility: hidden;
     background-color: $aboutColor;
 
@@ -119,7 +130,7 @@ h4,
     text-align: center;
 }
 
-#portfolio-row {
+#portfolio-row + div{
     // visibility: hidden;
     background-color: $portfolioColor;
     // background-image: url("../assets/images/bg/bg-binary.png");
@@ -137,10 +148,10 @@ h4,
     }
 }
 
-#contact-row {
+#contact-row + div{
     // visibility: hidden;
     background-color: $contactColor;
-    margin-bottom: -em;
+//    margin-bottom: -em;
     h5 {
         font-family: 'Lato'
     }
@@ -166,7 +177,7 @@ p {
     font-size: 3em;
     letter-spacing: 0.2em;
     &::first-letter {
-        font-size: 4em;
+        font-size: 2em;
     }
 }
 
