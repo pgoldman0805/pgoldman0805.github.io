@@ -70,10 +70,6 @@ h4,
 .navbar-nav > li > a {
   color: black; }
 
-/* line 88, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
-.portfolio-item:hover {
-  outline: 4px dashed #abcabc; }
-
 /* line 92, /Users/paulgoldman/Documents/GitHub/pgoldman0805.github.io/styles/Main.scss */
 .row {
   padding: 1em 0;
