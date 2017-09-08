@@ -84,7 +84,11 @@ h4,
     color: black ;
 }
 
-
+.portfolio-item {
+    &:hover{
+        outline: 4px dashed #abcabc;
+    }
+}
 .row {
     padding: 1em 0;
     border-bottom: 1px solid black;
@@ -137,12 +141,12 @@ h4,
     // background-size: cover;
     // background-repeat: no-repeat;
     > div {
-        opacity: 0.8;
+        opacity: 1;
         padding: 5px;
 //        background-color: #efefef;
         box-sizing: border-box;
         &:hover {
-            opacity: 1;
+            opacity: 0.85;
 //            background-color: #fefefe;
         }
     }
@@ -196,7 +200,7 @@ p {
         }
     }
     margin-top: -2px;
-    outline: 2px solid black;
+    outline: 1px solid black;
 //    max-height: 295px;
 }
 
