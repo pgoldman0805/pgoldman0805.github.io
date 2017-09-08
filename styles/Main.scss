@@ -53,7 +53,7 @@ span.anchor {
         color: black;
         
     }
-    background-color: RGBA(253,255,255,1);
+    background-color: rgba(255,255,255,0.8);
      box-shadow:  3px 3px 13px RGBA(0,0,0,0.2),  -3px -3px 23px gray;
 }
 
@@ -86,18 +86,13 @@ h4,
 .img-shadow {
     box-shadow: 10px 10px 5px #898989;
 }
-.portfolio-item {
-//    &:hover{
-//        outline: 4px dashed #abcabc;
-//    }
-}
+
 .row {
     padding: 1em 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
 }
 
 #title-row {
-    // visibility: hidden;
     background-color: $titleColor;
     // min-height: 100%;
 }
@@ -153,7 +148,10 @@ h4,
         }
     }
 }
+.section-title {
+    text-transform: uppercase;
 
+}
 #contact-row + div{
     // visibility: hidden;
     background-color: $contactColor;
@@ -164,7 +162,7 @@ h4,
     a {
         text-decoration: none;
         color: black;
-        transition: color 0.4s; 
+        transition: color 0.28s; 
         &:hover {
             color: #a35353;
             
